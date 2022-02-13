@@ -3,7 +3,7 @@ import requests
 import pprint
 import pandas as pd
 
-url = 'https://www.alphavantage.co/query?function=DIGITAL_CURRENCY_WEEKLY&symbol=BTC&market=CAD&apikey=WV6PJES3DGJQBXFM'
+url = 'https://www.alphavantage.co/query?function=DIGITAL_CURRENCY_WEEKLY&symbol=BTC&market=CAD&apikey=${apiKey}'
 response = requests.get(url)
 response_json = response.json()
 def keep_key(keyVar):
