@@ -9,3 +9,7 @@ Eventually I intend to make it grab all of the crypto currency values instead of
 - Install Python 3.
 - Make sure to install all dependencies such as Pandas and Request library.
 - type *python 3 cryptoPrice_Script* from the terminal/CLI.
+
+## If you want a different currency
+- Edit the script, and replace "BTC" in the URL with the alternate currency for example Ethereum.
+- Optional: You can rename the spreadsheet as well.
