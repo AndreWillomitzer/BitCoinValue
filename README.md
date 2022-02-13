@@ -1,5 +1,5 @@
 # BitCoinValue
-This is a tiny script I wrote to grab the value of Bitcoin for each week of every month. It fetches from Alpha Vantage API using the Requests library and writes the data into Rows/Columns using Pandas.
+This is a tiny script I wrote to grab the value of Bitcoin in Canadian Dollars for each week of every month. It fetches from Alpha Vantage API using the Requests library and writes the data into Rows/Columns using Pandas.
 
 Eventually I intend to make it grab all of the crypto currency values instead of just BitCoin. I work on it when I can :D
 
